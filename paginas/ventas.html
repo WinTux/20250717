@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepe's store</title>
+    <link href="http://localhost:8080/bootstrap/bootstrap.min.css" rel="stylesheet" >
+    <style>
+        section {
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md navbar-light bg-warning fixed-top">
+        <div class="container-xxl">
+            <a href="#introduccion" class="navbar-brand">
+                <span class="fw-bold text-white">Pepe's Store</span>
+            </a>
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav-principal"
+            aria-expanded="false"
+            aria-controls="#nav-principal"
+            aria-label="Navegación Toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-center" id="nav-principal">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a href="#acerca" class="nav-link">Acerca de nosotros</a>
+                    </li>
+                    <!-- comentarios, contacto, precios -->
+                    <li class="nav-item">
+                        <a href="#comentarios" class="nav-link">Comenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacto" class="nav-link">Contactate</a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a href="#precios" class="nav-link">Nuestos precios</a>
+                    </li>
+                    <li class="nav-item ms-2 d-none d-md-inline">
+                        <a href="#precios" class="btn btn-secondary">Nuestos precios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <section id="introduccion">
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <div class="display-2">
+                        Laptop
+                    </div>
+                    <div class="display-5 text-muted">
+                        Del pueblo y para el pueblo
+                    </div>
+                    <p class="lead my-4 text-muted">Laptop económica de buenas prestaciones.</p>
+                    <a href="#precios" class="btn btn-secondary btn-lg">Comprar</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img src="recursos/dotnet_bot.png" alt="Carrito e MAUI" class="img-fluid">
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="precios" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Planes de pago</h2>
+                <p class="lead text-muted">Elija el plan de pago que más le guste</p>
+            </div>
+            <div class="row my-5 align-items-center justify-content-center g-0">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <!-- Card 1 -->
+                     <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Básico</h4>
+                            <p class="lead card-subtitle">Con sistema GNU/Linux</p>
+                            <p class="display-5 my-4 text-primary fw bold">Bs. 1200</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 8GB de RAM, disco mecánico ded 500GB, gráficos integrados, procesador i5 de 1ra generación
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                     </div>
+                     
+                </div>
+                <div class="col-9 col-lg-4">
+                    <!-- Card 2 -->
+                     <div class="card border-primary border-2">
+                        <div class="card-header text-center text-primary">¡Más popular!</div>
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Estándar</h4>
+                            <p class="lead card-subtitle">Con sistema Windows 11</p>
+                            <p class="display-5 my-4 text-primary fw bold">Bs. 2200</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 32GB de RAM, almacenamiento SSD de 1TB, gráficos AMD 800x, procesador i7 de 6ta generación
+                            </p>
+                            <a href="#" class="btn btn-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                     </div>
+                     
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <!-- Card 3 -->
+                     <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Avanzado</h4>
+                            <p class="lead card-subtitle">Con sistema Winows 12</p>
+                            <p class="display-5 my-4 text-primary fw bold">Bs. 10500</p>
+                            <p class="card-text mx-5 text-muted d-none d-lg-block">
+                                Viene con 64GB de RAM, disco m2 de 16TB, gráficos GTX9800, procesador i9 de 8va generación
+                            </p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Comprarlo</a>
+                        </div>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="acerca">
+        <div class="container-md">
+            <div class="text-center">
+                <h2>Acerca de nosotros</h2>
+                <p class="lead text-muted">Se describen detalles de nuestra tienda y servicios</p>
+            </div>
+        </div>
+    </section>
+    <script src="http://localhost:8080/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
