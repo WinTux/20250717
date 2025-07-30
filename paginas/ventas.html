@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pepe's store</title>
     <link href="http://localhost:8080/bootstrap/bootstrap.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
     <style>
         section {
             padding: 60px 0;
@@ -133,8 +135,236 @@
                 <h2>Acerca de nosotros</h2>
                 <p class="lead text-muted">Se describen detalles de nuestra tienda y servicios</p>
             </div>
+            <div class="row my-5 g-5 justify-content-around align-items-center">
+                <div class="col-6 col-lg-4">
+                    <img src="../recursos/equipo-trabajo.jpeg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="elementos">
+                        <div class="accordion-item">
+                            <h2 id="heading-1" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-1"
+                                aria-expanded="true"
+                                aria-controls="parte-1">
+                            Nuestro personal
+                            </button>
+                            </h2>
+                            <div id="parte-1" class="accordion-collapse collapse show"
+                            aria-labelledby="heading-1"
+                            data-bs-parent="#elementos">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quae minima eligendi numquam delectus rerum, incidunt quasi quisquam nam! Nisi?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis, maxime cumque eos itaque dolor ea fugit velit animi delectus!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 id="heading-2" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-2"
+                                aria-expanded="false"
+                                aria-controls="parte-2">
+                            Nuestro personal
+                            </button>
+                            </h2>
+                            <div id="parte-2" class="accordion-collapse collapse"
+                            aria-labelledby="heading-2"
+                            data-bs-parent="#elementos">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quae minima eligendi numquam delectus rerum, incidunt quasi quisquam nam! Nisi?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis, maxime cumque eos itaque dolor ea fugit velit animi delectus!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 id="heading-3" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-3"
+                                aria-expanded="false"
+                                aria-controls="parte-3">
+                            Nuestro personal
+                            </button>
+                            </h2>
+                            <div id="parte-3" class="accordion-collapse collapse"
+                            aria-labelledby="heading-3"
+                            data-bs-parent="#elementos">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quae minima eligendi numquam delectus rerum, incidunt quasi quisquam nam! Nisi?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis, maxime cumque eos itaque dolor ea fugit velit animi delectus!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 id="heading-4" class="accordion-header">
+                                <button class="accordion-button" type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#parte-4"
+                                aria-expanded="false"
+                                aria-controls="parte-4">
+                            Nuestro personal
+                            </button>
+                            </h2>
+                            <div id="parte-4" class="accordion-collapse collapse"
+                            aria-labelledby="heading-4"
+                            data-bs-parent="#elementos">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum quae minima eligendi numquam delectus rerum, incidunt quasi quisquam nam! Nisi?</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis, maxime cumque eos itaque dolor ea fugit velit animi delectus!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <section id="comentarios" class="bg-light">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Comentarios de nuestros usuarios</h2>
+                <p class="lead">Las personas opinan sobre nosotros</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-8">
+                    <div class="list-group">
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Buen servicio<div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div></h5>
+                            <p class="mb-1">Buen servicio y lidos productos, recomendado</p>
+                            <small>Comentario de usuario: Pepe</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Estuvo bueno
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+
+                            </h5>
+                            <p class="mb-1">Buen servicio y todo pero</p>
+                            <small>Comentario de usuario: Samantha</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Muy malo
+                                <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                            </h5>
+                            <p class="mb-1">No lo recomiendo jamás</p>
+                            <small>Comentario de usuario: Ana</small>
+                        </div>
+                        <div class="list-group-item py-3">
+                            <h5 class="mb-1">Puede mejorar
+                                <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                        <i class="bi bi-star"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                            </h5>
+                            <p class="mb-1">Me parece que pueden mejorar el producto porque no es como las fotos.</p>
+                            <small>Comentario de usuario: Sofía</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Contáctate con nosotros</h2>
+                <p class="lead">¿Tienes alguna consulta? Llena el siguiente formulario</p>
+            </div>
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-6">
+                    <form action="#" method="post">
+                        <label for="correo" class="form-label">email:</label>
+                        <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                            <input name="email" type="email" id="correo" class="form-control" placeholder="abc@gmail.com">
+                        </div>
+                        
+                        <label for="nom" class="form-label">Nombre:</label>
+                        <input name="nombre" type="text" id="nom" class="form-control" placeholder="Ej. Pepe">
+                        <label for="asunto" class="form-label">¿Cuál es su duda?</label>
+                        <select name="asunto" id="asunto" class="form-select">
+                            <option value="descripcion" selected>Sobre detalles de un producto</option>
+                            <option value="reclamo">Sobre reclamo de un producto</option>
+                            <option value="precio">Sobre precio de un producto</option>
+                            <option value="otro">Otra consulta</option>
+                        </select>
+                        <div class="form-floating mb-4 bt-5">
+                            <textarea name="mensaje" class="form-control" id="mensaje" style="height: 140px;"></textarea>
+                            <label for="mensaje">Escriba su mensaje aquí</label>
+                        </div>
+                        <div class="text-center mb-4">
+                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center">
+                <h2>Mantente actualizado</h2>
+                <p class="lead">Suscríbete a noticias recientes</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis veritatis, perspiciatis assumenda laborum eligendi id!</p>
+                    <button class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#suscripcionModal">
+                    Suscribirse</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal fade" id="suscripcionModal"
+    tabindex="-1"
+    aria-labelledby="modal-titulo"
+    aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="nodal-header">
+                    <h5 id="modal-titulo" class="modal-title">Suscríbete a nuestro servicio</h5>
+                    <button type="button" class="btn-close" 
+                    data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nam veniam, a ipsa provident iste.</p>
+                    <label for="modal-correo" class="form-label">Su email:</label>
+                    <input id="modal-correo" type="email" class="form-control">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary">enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="http://localhost:8080/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
